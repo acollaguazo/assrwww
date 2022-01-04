@@ -7,7 +7,7 @@ const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-acce
 const bodyparser = require('body-parser')
 const { engine } = require('express-handlebars');
 const routes_controller = require('./controllers/routes_controller')
-const port = process.env.port || 3000
+const port = process.env.PORT || 3000
 
 var app = express();
 
