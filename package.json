@@ -1,7 +1,7 @@
 {
-  "name": "assrapp",
+  "name": "assrwww",
   "version": "1.0.0",
-  "description": "ASSR APP",
+  "description": "ASSR WWW",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
     "handlebars": "^4.7.7",
-    "mongoose": "^6.1.2",
+    "mongoose": "^6.1.5",
     "path": "^0.12.7"
   }
 }
