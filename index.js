@@ -15,11 +15,7 @@ app.use(bodyparser.urlencoded({extended: false}))
 app.use(bodyparser.json())
 
 app.get('/', (req, res) => {
-    res.send(`
-    <h2>Welcome to ASSR APP</h2>
-    <h3>Click hereto get access to the <b> <a href="/router/list">DATABASE</a></b></h3>
-   `);
-    
+    res.send('<h2>Welcome to ASSR APP</h2> <h3>Click hereto get access to the <b> <a href="/router/list">DATABASE</a></b></h3>');
 });
 
 app.set('views', path.join(__dirname, "/views/"));
